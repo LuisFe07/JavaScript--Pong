@@ -99,7 +99,7 @@ function verificaColisaoRaquete(x,y) {
 
 function movimentaRaqueteOponente(){
     if (keyIsDown(UP_ARROW)){
-        yRaqueteOponente -= 10;s
+        yRaqueteOponente -= 10;
     }
     if (keyIsDown(DOWN_ARROW)){
         yRaqueteOponente += 10;
